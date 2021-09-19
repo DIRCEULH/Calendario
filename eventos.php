@@ -100,8 +100,7 @@
                echo '<br><center><div><font color="red"> Campos Obrigatorios !</font></div></center>';
             }
         }
-    } 
-        
+    }       
 ?>
 <!DOCTYPE HTML>
 <html lang="pt-BR">
@@ -125,12 +124,11 @@
     </form>
     </div>
     
-
 <script type="text/javascript" >
 function mascaraData( campo, e )
 {
 	var kC = (document.all) ? event.keyCode : e.keyCode;
-    
+
 	var data = campo.value;
 	
 	if( kC!=8 && kC!=46 )
