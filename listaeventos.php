@@ -15,7 +15,6 @@
     $eventos->execute();
     $dados = $eventos->fetchAll(PDO::FETCH_ASSOC);
  
-//print_r($dados);die;
         
 ?>
 <!DOCTYPE HTML>
